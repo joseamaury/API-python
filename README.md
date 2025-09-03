@@ -84,76 +84,86 @@ Este projeto faz parte de um desafio pessoal de aprendizado em Python, inspirado
 
 [
 {
+
 "id": 1,
 "nome": "Mouse Gamer",
 "preco": 199.90,
 "descricao": "Mouse RGB 16000 DPI"
+
 },
 {
+
 "id": 2,
 "nome": "Teclado Mecânico",
 "preco": 299.90,
 "descricao": "Teclado RGB com switches azuis"
+
 }
 ]
 
-text
 
 ### 2. Criar produto
 
 **POST /produtos**
 
-Corpo da requisição:
+**Corpo da requisição:**
 
 {
+
 "nome": "Headset Gamer",
 "preco": 149.90,
 "descricao": "Headset com microfone retrátil"
+
 }
 
-text
 
-Resposta:
+**Resposta:**
 
 {
+
 "id": 3,
 "nome": "Headset Gamer",
 "preco": 149.90,
 "descricao": "Headset com microfone retrátil"
+
 }
 
-text
+
 
 ### 3. Atualizar produto
 
 **PUT /produtos/3**
 
-Corpo da requisição:
+**Corpo da requisição:**
 
 {
+
 "preco": 159.90
+
 }
 
-text
 
-Resposta:
+
+**Resposta:**
 
 {
+
 "id": 3,
 "nome": "Headset Gamer",
 "preco": 159.90,
 "descricao": "Headset com microfone retrátil"
+
 }
 
-text
 
 ### 4. Deletar produto
 
 **DELETE /produtos/3**
 
-Resposta:
+**Resposta:**
 
 {
+
 "message": "Produto removido com sucesso",
 "produto": {
 "id": 3,
@@ -161,22 +171,22 @@ Resposta:
 "preco": 159.90,
 "descricao": "Headset com microfone retrátil"
 }
+
 }
 
-text
 
 ---
 
 ## Instruções de Instalação
 
-1. Clonar o repositório
+**1. Clonar o repositório**
 
 git clone https://github.com/joseamaury/API-python.git
 cd API-python
 
-text
 
-2. Criar e ativar o ambiente virtual
+
+**2. Criar e ativar o ambiente virtual**
 
 Windows
 python -m venv venv
@@ -186,27 +196,27 @@ Linux / Mac
 python -m venv venv
 source venv/bin/activate
 
-text
 
-3. Instalar dependências
+
+**3. Instalar dependências**
 
 pip install -r requirements.txt
 
-text
 
-4. Executar a API
+
+**4. Executar a API**
 
 uvicorn main:app --reload
 
-text
 
-5. Abrir documentação interativa
+
+**5. Abrir documentação interativa**
 
 Acesse no navegador:
 
 http://127.0.0.1:8000/docs
 
-text
+
 
 ---
 
