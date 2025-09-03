@@ -1,6 +1,9 @@
 # API de Gerenciamento de Produtos
 
-![GitHub license](https://img.shields.io/github/license/joseamaury/API-python)
+![GitHub repo size](https://img.shields.io/github/repo-size/joseamaury/API-python)
+![GitHub last commit](https://img.shields.io/github/last-commit/joseamaury/API-python)
+![GitHub issues](https://img.shields.io/github/issues/joseamaury/API-python)
+![GitHub stars](https://img.shields.io/github/stars/joseamaury/API-python?style=social)
 ![Python Versions](https://img.shields.io/badge/python-3.x-blue)
 
 ## Descrição Geral
