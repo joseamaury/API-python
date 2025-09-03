@@ -1,5 +1,8 @@
 # API de Gerenciamento de Produtos
 
+![GitHub license](https://img.shields.io/github/license/joseamaury/API-python)
+![Python Versions](https://img.shields.io/badge/python-3.x-blue)
+
 ## Descrição Geral
 Esta API foi desenvolvida em **Python** usando **FastAPI**, com o objetivo de gerenciar produtos de forma simples. Permite criar, listar, atualizar e deletar produtos, simulando um sistema básico de estoque ou loja online.  
 
